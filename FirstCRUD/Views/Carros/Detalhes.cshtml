@@ -1,0 +1,12 @@
+﻿@model FirstCRUD.Models.Carro
+@{
+    ViewData["Title"] = "Detalhes";
+}
+
+<h2>Detalhes</h2>
+
+<div class="row">
+    @Html.DisplayFor(model => model.Marca)
+    @Html.DisplayFor(model => model.Nome)
+    @Html.DisplayFor(model => model.Ano)
+</div>
